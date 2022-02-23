@@ -1,9 +1,15 @@
-import { Component } from "react";
+import React, { Component } from "react";
+import { CardHeader, Card, CardBody } from "reactstrap";
 
-class Home extends Component {
-	render() {
-		return (
-			<p>Hello there what is happening</p>
-		)
-	}
+function Home() {
+	return (
+		<div>
+			<Card className="">
+				<CardHeader><h1>Hello My Name is Jeffrey</h1></CardHeader>
+				<CardBody>I want to be a fullstack engineer</CardBody>
+			</Card>
+		</div>
+	);
 }
+
+export default Home;
