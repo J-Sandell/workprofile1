@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
+
+
+
 
 
 class Footer extends Component {
@@ -18,8 +22,9 @@ class Footer extends Component {
 						</div>
 						<div className='col'>
 							<h3>Social</h3>
+							
 							<ul className='list-unstyled'>
-								<li>GitHub</li>
+								
 								<li>Linkden</li>
 								<li>Instagram</li>
 							</ul>
